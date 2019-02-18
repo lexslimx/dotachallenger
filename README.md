@@ -7,3 +7,11 @@ To Do
 3. Create challenges for players that will be viewable on the app e.g (get 10 kills in a game )
 4. Invite players to the app to complete challenges while playing dota.
 5. Create a leaderboard for the challenges
+
+
+Things we'll learn
+1. C# program flow
+2. C# variable operators and data types
+3. Objects - Classes and Interfaces
+4. Http Communication in C#
+5. Github - Commits, Pulls, Version Control
