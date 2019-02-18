@@ -19,8 +19,8 @@ namespace dotachallenger
                 2. Print out the player rank_tier and leaderboard_rank from the created player instance
              */
 
-            var playerService = new PlayerService();
-            var player = playerService.GetPlayerprofile(38867839);
+            PlayerService playerService = new PlayerService();
+            Player player = playerService.GetPlayerprofile(38867839);
             
            
         }

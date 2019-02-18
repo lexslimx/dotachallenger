@@ -9,7 +9,7 @@ public class PlayerService : IPlayerService
     public Player GetPlayerprofile(int accountId)
     {
 
-        var player = GetPlayerInfo(accountId);
+        Player player = GetPlayerInfo(accountId);
 
         if (player == null)
         {
@@ -29,8 +29,8 @@ public class PlayerService : IPlayerService
     //make a network call to opendata api to request player info for the supplied accounid
     private Player GetPlayerInfo(int accountId)
     {
-        var serializer = new DataContractJsonSerializer(typeof(Player));
-        var httpClient = new HttpClient();
+        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Player));
+        HttpClient httpClient = new HttpClient();
         Stream playerInfoAsStream;
         
         try{
@@ -42,7 +42,7 @@ public class PlayerService : IPlayerService
         }
        
         //convert the results into a valid player object for our program and return it
-        var player = serializer.ReadObject(playerInfoAsStream) as Player;
+        Player player = serializer.ReadObject(playerInfoAsStream) as Player;
         return new Player();
     }
 }
