@@ -15,3 +15,11 @@ Things we'll learn
 3. Objects - Classes and Interfaces
 4. Http Communication in C#
 5. Github - Commits, Pulls, Version Control
+
+
+To Run The code:
+1. Clone this repo to a folder on you pc
+2. Open the folder using vscode
+3. Bring up the terminal in vs code (Ctrl+~)
+4. Build the project using dotnet build
+5. Ensure the project builds successfully
