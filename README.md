@@ -14,6 +14,8 @@ Resources:
 2. You'll need your steamid later, get it from this tool: https://steamid.xyz/77735678
     Use the entry marked Steam32 ID.
     You must set your steam appunt to public for this to be visible
+3. Api syntax 
+    https://api.opendota.com/api/players/{accountid}   (try this in your browser first)
 
 Things we'll learn
 1. C# program flow
