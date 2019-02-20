@@ -7,7 +7,7 @@ namespace dotachallenger
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Dota!");                        
-            Console.WriteLine("Please enter your steam account id");
+            //Console.WriteLine("Please enter your steam account id");
             string accountId = null;
             //read the accountId from the console (**hint user Console.ReadLine) to get rid of the compile error
 
@@ -20,10 +20,13 @@ namespace dotachallenger
              */
 
             PlayerService playerService = new PlayerService();
-            Player player = playerService.GetPlayerprofile(38867839);
+            Player player = playerService.GetPlayerprofile(77735678);
 
             if(player == null)     {
                 Console.WriteLine("An error occurred");
+            }
+            else{
+                Console.WriteLine($"player is at rank tier {player.rank_tier}");
             }
         }
     }

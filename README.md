@@ -11,7 +11,9 @@ To Do
 
 Resources:
 1. Dota's Open data API hosted at: https://docs.opendota.com/
-2. You'll need your steamid later, get it from this tool: https://steamid.io
+2. You'll need your steamid later, get it from this tool: https://steamid.xyz/77735678
+    Use the entry marked Steam32 ID.
+    You must set your steam appunt to public for this to be visible
 
 Things we'll learn
 1. C# program flow
