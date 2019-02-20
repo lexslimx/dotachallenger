@@ -9,6 +9,10 @@ To Do
 5. Create a leaderboard for the challenges
 
 
+Resources:
+1. Dota's Open data API hosted at: https://docs.opendota.com/
+2. You'll need your steamid later, get it from this tool: https://steamid.io
+
 Things we'll learn
 1. C# program flow
 2. C# variable operators and data types

@@ -1,0 +1,5 @@
+1. Git pull, push, merge e.tc
+2. C# variables, classes and methods
+3. c# reading and writing from the console in c#
+4. .net core build and run code.
+5. Basic http api calls with the browser
