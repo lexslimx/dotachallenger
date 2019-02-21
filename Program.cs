@@ -28,7 +28,7 @@ namespace dotachallenger
            
             Game FirstGame=new Game(5,3,8);
             Console.WriteLine($"Your KDA is {FirstGame.killcount}:{FirstGame.deaths}:{FirstGame.assists}");
-            
+            Console.WriteLine("Thanks for playing");
             //read the accountId from the console (**hint user Console.ReadLine) to get rid of the compile error
          
             //Console.WriteLine($"You Entered: {accountId}");
