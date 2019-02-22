@@ -31,3 +31,9 @@ To Run The code:
 3. Bring up the terminal in vs code (Ctrl+~)
 4. Build the project using dotnet build
 5. Ensure the project builds successfully
+
+
+Next:
+1. Methods - creating methods, returning values, void methods
+2. Json formatting - scerializing, descerializing
+3. Http Communication (System.net)
