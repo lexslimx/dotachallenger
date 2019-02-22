@@ -28,18 +28,19 @@ namespace dotachallenger
             
              // TODO
             /*
-                1. Create a new  player (instance) object  based on the entered account id   //DONE FOR YOU         
+                1. Create a new  player (instance) object  based on the entered account id   //DONE FOR YOU     
+
                 2. Print out the player rank_tier and leaderboard_rank from the created player instance
              */
 
             PlayerService playerService = new PlayerService();
-            Player player = playerService.GetPlayerprofile(77735678);
-
+            Player player = playerService.GetPlayerprofile(286066396);
+            
             if(player == null)     {
                 Console.WriteLine("An error occurred");
             }
             else{
-                Console.WriteLine($"player is at rank tier {player.rank_tier}");
+                Console.WriteLine($"Liliesss is at rank tier {player.rank_tier}");
             }
         }
     }
