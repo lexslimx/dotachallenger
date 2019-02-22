@@ -1,5 +1,9 @@
 public class Player
 {
+    public Player(int rank_tier)
+    {
+        this.rank_tier=rank_tier;
+    }
     public string solo_competitive_rank { get; set; }
     public int rank_tier { get; set; }
     public int leaderboard_rank;
