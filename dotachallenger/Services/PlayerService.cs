@@ -33,7 +33,7 @@ public class PlayerService : IPlayerService
         }
         catch (Exception ex)
         {
-            Console.WriteLine("A network exception ocurred, a default player object will be returned");
+            Console.WriteLine($"A network exception ocurred, a default player object will be returned, Exception details: {ex.Message}");
             return null;
         }
         //convert the results into a valid player object for our program and return it

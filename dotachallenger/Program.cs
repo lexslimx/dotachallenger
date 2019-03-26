@@ -15,7 +15,7 @@ namespace dotachallenger
                 Console.WriteLine("An error occurred, received no data about the player id used");
             }
             else{
-                Console.WriteLine($"The player name is {player.profile.name}");
+                Console.WriteLine($"The player name is {player.profile.name} competitive rank: {player.solo_competitive_rank}");
             }
         }
     }
