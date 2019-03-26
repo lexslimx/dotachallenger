@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace dotachallenger
 {
@@ -22,12 +23,19 @@ namespace dotachallenger
 
             //Create a new instance of the new match service found in services folder (MatchService.cs)
 
-            //use the method GetMatches to retrievee the recent matches of the player
+            //use the method GetMatches to retrieve the recent matches of the player using the accountId above and assign them to a variable recentMatches below
+            List<Match> recentMatches;
 
-            //Print out all the received matches in the format "PLAYERNAME:  KILLS  DEATHS  MATCHDURATION
+            //Print out all the received matches in the format "PLAYERNAME:  KILLS , DEATHS , MATCHDURATION , K/D RATIO (Create a method in this class to calculate this You have to calculate this)
+                //HINT:  User a foreach loop i.e foreach(Match item in recentMatches){}....
 
             //reffer to the entities folder fo the  Match class to find out the necessary properties of matches
 
         }
+
+
+        //Create method to calculat the K/D ratio here take in two int parameters and returna d double recision number
+
+
     }
 }
