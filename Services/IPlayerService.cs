@@ -1,5 +1,5 @@
 public interface IPlayerService
 { 
-    Player GetPlayerprofile(int accountId);
+    Player GetPlayerProfile(int accountId);
 
 }
