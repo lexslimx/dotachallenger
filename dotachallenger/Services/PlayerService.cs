@@ -10,18 +10,8 @@ public class PlayerService : IPlayerService
     public Player GetPlayerProfile(int accountId)
     {
         Player player = GetPlayerInfo(accountId);
-        if (player == null)
-        {
-            Console.WriteLine("Error");
-            return null;
-        }
-        else
-        {
-            return player;
-        }
+        return player;        
     }
-
-
     //make a network call to opendata api to request player info for the supplied accounid
     private Player GetPlayerInfo(int accountId)
     {
@@ -33,7 +23,7 @@ public class PlayerService : IPlayerService
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"A network exception ocurred, a default player object will be returned, Exception details: {ex.Message}");
+            Console.WriteLine($"A network exception ocurred, an null player object will be returned, Exception details: {ex.Message}");
             return null;
         }
         //convert the results into a valid player object for our program and return it

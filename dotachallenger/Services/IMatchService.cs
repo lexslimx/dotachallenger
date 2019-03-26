@@ -1,4 +1,6 @@
 using System;
-public interface IMatchService{
+using System.Collections.Generic;
 
+public interface IMatchService{
+   List<Match> GetMatches(int accountId);
 }
