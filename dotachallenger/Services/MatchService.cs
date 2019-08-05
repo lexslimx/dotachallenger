@@ -5,11 +5,8 @@ using Newtonsoft;
 
 public class MatchService : IMatchService
 {
-    private string ApiUrl = "https://api.opendota.com/api/players/{0}/matches?limit=10";
-    public MatchService()
-    {
-
-    }
+    private string ApiUrl = "https://api.opendota.com/api/players/{0}/matches?limit=100";
+    
 
     public List<Match> GetMatches(int accountId)
     {
