@@ -35,8 +35,10 @@ namespace dotachallenger
                 //HINT:  User a foreach loop i.e foreach(Match item in recentMatches){}....
                 foreach(Match x in recentMatches)
                 {
-                   Console.WriteLine("Kills:" +x.kills+"  Deaths:"+x.deaths);
-
+                   
+                   
+                    Console.WriteLine("Kills:"+"\t" +x.kills+"\t"+"  Deaths:"+"\t"+x.deaths+"\t"+"  Assists:"+"\t"+x.assists);
+                
                 }
 
             //reffer to the entities folder fo the  Match class to find out the necessary properties of matches
